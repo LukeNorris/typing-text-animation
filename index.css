@@ -1,0 +1,24 @@
+div {
+    background-color: black;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(134, 221, 3);
+    animation: type 4s steps(52);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 7px solid rgb(134, 221, 3);
+    width: 52ch;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 53ch;
+    }
+}
